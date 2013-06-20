@@ -3,7 +3,7 @@
 
 PUPPET_DIR='/provision/puppet'
 
-PUPSTRAP_SRC="${PUPPET_DIR}/scripts/pupstrap"
+PUPSTRAP_SRC="${PUPPET_DIR}/pupstrap/pupstrap"
 
 PUPPET_MODULE_PATH=$PUPPET_DIR/modules
 LIBRARIAN_MODULE_PATH=$PUPPET_DIR/puppetfile-modules
