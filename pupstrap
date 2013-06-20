@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # vi: set softtabstop=2 shiftwidth=2 expandtab :
 
-PUPPET_DIR='/vagrant/puppet'
+PUPPET_DIR='/provision/puppet'
 
 PUPSTRAP_SRC="${PUPPET_DIR}/scripts/pupstrap"
 
