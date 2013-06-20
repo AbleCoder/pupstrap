@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # vi: set softtabstop=2 shiftwidth=2 expandtab :
 
-PUPPET_DIR='/provision/puppet'
+PROVISION_DIR='/provision'
 
-PUPSTRAP_SRC="${PUPPET_DIR}/pupstrap/pupstrap"
+PUPPET_DIR="${PROVISION_DIR}/puppet"
+PUPSTRAP_SRC="${PROVISION_DIR}/pupstrap/pupstrap.sh"
 
 PUPPET_MODULE_PATH=$PUPPET_DIR/modules
 LIBRARIAN_MODULE_PATH=$PUPPET_DIR/puppetfile-modules
